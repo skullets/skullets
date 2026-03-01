@@ -1,0 +1,19 @@
+title: Skullets
+description: Technically Driven Comics
+theme: beautiful-jekyll-theme
+
+navbar-links:
+  Comics: "skullets"
+  About: "about"
+
+collections:
+  skullets:
+    output: true
+    permalink: /skullets/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "skullets"
+    values:
+      layout: post
