@@ -17,3 +17,7 @@ defaults:
       type: "skullets"
     values:
       layout: post
+
+beautiful_jekyll:
+  custom_css:
+    - /assets/css/custom.css
