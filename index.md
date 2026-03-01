@@ -1,7 +1,14 @@
 ---
 layout: home
 title: Skullets
-subtitle: Technical humor comic strips by Raman Gopalan and Narasimha Vedala
+subtitle: Technically Driven Comics
 ---
 
 Welcome to Skullets!
+
+Engineering.
+Philosophy.
+Puns.
+Tamil and Kannada references.
+Silicon.
+Absurdity.
