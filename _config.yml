@@ -14,6 +14,7 @@ collections:
   skullets:
     output: true
     permalink: /skullets/:name/
+    sort_by: date
 
 defaults:
   - scope:
