@@ -22,3 +22,5 @@ defaults:
       type: "skullets"
     values:
       layout: post
+
+show_date: false
