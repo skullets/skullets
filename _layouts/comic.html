@@ -1,0 +1,73 @@
+---
+layout: default
+---
+
+<style>
+.comic-container {
+  max-width: 760px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.comic-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.comic-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.comic-caption {
+  font-size: 14px;
+  color: #666;
+  margin-top: 15px;
+}
+
+.comic-nav {
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.comic-nav a {
+  margin: 0 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.comic-nav a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<div class="comic-container">
+
+  <div class="comic-title">
+    {{ page.title }}
+  </div>
+
+  <div class="comic-image">
+    <img src="{{ page.image }}" alt="{{ page.title }}">
+  </div>
+
+  {% if page.caption %}
+  <div class="comic-caption">
+    {{ page.caption }}
+  </div>
+  {% endif %}
+
+  <div class="comic-nav">
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}">← Previous</a>
+    {% endif %}
+
+    <a href="/skullets/">Archive</a>
+
+    {% if page.next %}
+      <a href="{{ page.next.url }}">Next →</a>
+    {% endif %}
+  </div>
+
+</div>
